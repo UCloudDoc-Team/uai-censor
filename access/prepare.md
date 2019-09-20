@@ -1,11 +1,11 @@
 {{indexmenu_n>10}}
 
-==== 接入流程 ====
+# 接入流程
 
 - **登录UCloud控制台，进入UAI内容审核产品页**
 
  UCloud控制台地址： https://console.ucloud.cn/dashboard，用户在登录前需要先完成账号的注册。
- 
+
  进入控制台页面后，点击左上角的“全部产品”选项，选择“人工智能”下的“AI内容审核”，进入UAI内容审核产品页面。
 
  {{ :ai:uai-censor:access:0.png?nolink |}}
@@ -13,7 +13,7 @@
 - **创建UAI内容审核资源**
 
  点击UAI内容审核页面的“创建应用”选项。
- 
+
  {{ :ai:uai-censor:access:1.png?nolink |}}
 
  按需填写所需信息，点击“确认”选项，创建资源。
@@ -50,3 +50,4 @@
  - [[ai:uai-censor:pysdk:censor|Python SDK]]
 
  
+

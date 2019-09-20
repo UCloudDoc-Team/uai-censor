@@ -1,17 +1,17 @@
 {{indexmenu_n>20}}
 
-==== 内容审核 ====
+# 内容审核
 
-#1. 视频内容审核
+## 1. 视频内容审核
 
-##使用说明
+### 使用说明
 
   python censor_tool.py video {create,query} ...
 
-
-##参数说明
+### 参数说明
 
 | 参数名称 | 参数类型 | 参数说明 |
+| -------- | -------- | -------- |
 | public\_key | string | 用户的公钥 |
 | resource\_id | string | 资源ID|
 | timestamp | int64 | 时间戳信息|
@@ -22,7 +22,7 @@
 | interval | int | 截帧间隔 |
 | callback | string | 视频审查结果回调地址 |
 
-##1.1 创建视频审查任务
+#### 1.1 创建视频审查任务
 
   python censor_tool.py video create		--signature SIGNATURE \
   						--public_key PUBLIC_KEY \
@@ -35,25 +35,26 @@
                                    		[--callback CALLBACK]
 
 
-##1.2 查看视频审查任务
+#### 1.2 查看视频审查任务
 
   python censor_tool.py video query		--signature SIGNATURE \
   						--public_key PUBLIC_KEY \
   						--resource_id RESOURCE_ID \
                                       		--timestamp TIMESTAMP \
                                       		--job_id JOB_ID
-  
 
-#2. 图片内容审核
 
-##使用说明
+## 2. 图片内容审核
+
+### 使用说明
 
   python censor_tool.py image {create} ...
 
 
-##参数说明
+### 参数说明
 
 | 参数名称 | 参数类型 | 参数说明 |
+| -------- | -------- | -------- |
 | public\_key | string | 用户的公钥 |
 | resource\_id | string | 资源ID|
 | timestamp | int64 | 时间戳信息|
@@ -64,7 +65,7 @@
 | image | []byte | 图片内容 |
 | url | string | 图片地址 |
 
-##2.1 图片内容审核
+#### 2.1 图片内容审核
 
   python censor_tool.py image create  	--signature SIGNATURE \
   					--public_key PUBLIC_KEY \
