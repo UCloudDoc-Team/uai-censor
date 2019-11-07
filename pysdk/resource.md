@@ -87,6 +87,7 @@
                                       	    	[--project_id PROJECT_ID] \
                                             	[--region REGION] \
                                       	    	[--zone ZONE] \
-                                      	    	--begin_time BEGIN_TIME \												    	--end_time END_TIME \
+                                      	    	--begin_time BEGIN_TIME\
+										    	--end_time END_TIME \
                                       	    	[--resource_id RESOURCE_ID]
 

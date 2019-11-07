@@ -1,9 +1,4 @@
-
-
-#  API手册
-
-
-**目录**
+# API手册
 
 * [资源管理](ai/uai-censor/api/resource/overview)
     * [创建资源](ai/uai-censor/api/resource/create-resource)
