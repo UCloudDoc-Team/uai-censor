@@ -27,7 +27,7 @@
 | PublicKey | String | 公钥 | 是 |
 | ResourceId | String | 资源ID | 是 |
 | Timestamp | Int | 当前unix时间戳 | 是 |
-		
+
 **请求参数（JSON）**
 
 | 字段名 | 字段类型 | 说明 | 是否必须 |
@@ -68,3 +68,4 @@
 | ------ | -------- | ---- |
 | FrameId | Int | 图像帧号， 视频第一帧图像帧号为0 |
 | Score | Float | 得分， 范围[0, 1]， 分数越高，置信度越高 |
+

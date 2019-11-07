@@ -4,7 +4,7 @@
 
 - **登录UCloud控制台，进入UAI内容审核产品页**
 
- UCloud控制台地址： https://console.ucloud.cn/dashboard，用户在登录前需要先完成账号的注册。
+ UCloud控制台地址：[]( https://console.ucloud.cn/dashboard)，用户在登录前需要先完成账号的注册。
 
  进入控制台页面后，点击左上角的“全部产品”选项，选择“人工智能”下的“AI内容审核”，进入UAI内容审核产品页面。
 
@@ -46,7 +46,7 @@
 
  内容审核服务提供两种调用方式，具体信息如下：
 
- - [Restful API]([ai/uai-censor/api/censor)
+ - [Restful API](ai/uai-censor/api/censor)
  - [Python SDK](ai/uai-censor/pysdk/censor)
 
  
