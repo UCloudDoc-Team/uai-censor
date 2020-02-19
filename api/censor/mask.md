@@ -44,13 +44,13 @@
 | RetCode | Int | 返回码 |
 | Message | String | 返回信息 |
 | Timestamp | Int | 当前unix时间戳 |
-| Results | []MaskMResult  | 检测结果, 未检测到人脸数组长度为0 |
+| Results | []MaskMResult  | 检测结果, 未检测到人脸时长度为0 |
 
 **MaskMResult**
 
 | 字段名 | 字段类型 | 说明 |
 | ------ | -------- | ---- |
-| Rect        | []int  | 涉黄审查结果, 人脸框位置[x0, y0, w, h], (x0,y0) 人脸框左上角位置, w、h 人脸框宽、高 |
+| Rect        | []int  | 人脸框位置[x0, y0, w, h], (x0,y0) 人脸框左上角位置, w、h 人脸框宽、高 |
 | Type      | int  | 0:未戴口罩; 1:口罩佩戴不规范; 2:正确佩戴口罩 |
 | Color  | string  | 口罩颜色, 范围:white,black,blue,other  |
 | Uncovered  | []string  | 口罩未覆盖的位置,范围:nose,mouth  |
