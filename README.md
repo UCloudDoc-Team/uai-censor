@@ -1,6 +1,6 @@
-<div class="sidebar_title icon__censor"> 内容审核 UAI-Censor</div>
+# 概览
 
-* [概览](/uai-censor/README)
+
 * [产品简介](/uai-censor/introduction)
 * [产品定价](/uai-censor/price)
 * [接入指南](/uai-censor/access/overview)

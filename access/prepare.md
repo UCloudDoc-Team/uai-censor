@@ -46,8 +46,8 @@
 
  内容审核服务提供两种调用方式，具体信息如下：
 
- - [Restful API](ai/uai-censor/api/censor)
- - [Python SDK](ai/uai-censor/pysdk/censor)
+ - [Restful API](uai-censor/api/censor)
+ - [Python SDK](uai-censor/pysdk/censor)
 
  
 
