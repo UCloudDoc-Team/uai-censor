@@ -1,4 +1,3 @@
-<div class="sidebar_title icon__censor"> 内容审核 UAI-Censor</div>
 
 * [概览](/uai-censor/README)
 * [产品简介](/uai-censor/introduction)
